@@ -1,5 +1,7 @@
 import * as turf from "@turf/turf";
 
+console.log('HERE!!!!!')
+
 import {CompositeLayer, GeoJsonLayer, TextLayer} from './deck-layers';
 
 const defaultProps = {

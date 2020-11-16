@@ -1,15 +1,17 @@
 {
     "name": "pydeck-custom-layer-demo",
-    "version": "0.0.2-alpha.1",
+    "version": "0.0.3",
     "description": "A demo custom layer for the pydeck Python library",
     "main": "dist/bundle.js",
     "license": "MIT",
-    "repository": "https://github.com/ajduberstein/pydeck_custom_layer",
+    "repository": "https://github.com/cornhundred/pydeck-lasso-layer",
     "unpkg": "dist/bundle.js",
     "dependencies": {
         "@deck.gl/core": "^8.0.12",
         "@deck.gl/layers": "^8.0.12",
-        "@turf/turf": "^5.1.6"
+        "@turf/turf": "^5.1.6",
+        "nebula.gl": "^0.19.2",
+        "@deck.gl/mesh-layers": "^8.0.3"
     },
     "devDependencies": {
         "webpack": "^4.42.1",
