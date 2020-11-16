@@ -1,5 +1,5 @@
 {
-    "name": "pydeck-custom-layer-demo",
+    "name": "pydeck-lasso-layer",
     "version": "0.0.3",
     "description": "A demo custom layer for the pydeck Python library",
     "main": "dist/bundle.js",
